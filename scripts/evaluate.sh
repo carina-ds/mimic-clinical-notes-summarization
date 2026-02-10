@@ -1,1 +1,5 @@
 
+#!/usr/bin/env bash
+set -euo pipefail
+
+python -m src.evaluation.evaluate --checkpoint runs/t5-small
